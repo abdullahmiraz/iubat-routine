@@ -1,0 +1,57 @@
+
+body,html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* font changed */
+th, td{
+  font-size: 0.8rem;
+}
+
+
+.heading_here{
+    margin: 1rem;
+    color: #477bfd;
+}
+.main_thread{
+    font-size: 1rem;
+}
+
+.back_btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    
+}
+.make_it_blue{
+  background-color: #477bfd;
+  border: none;
+
+}
+.go_back{
+    color: white;
+    font-size: 0.8rem;
+    
+}
+.go_back:hover{
+    color: #ffffff;
+}
+
+/* ANIMATION */
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  background-color: #477bfd;
+  font-size: 1rem;
+  padding: 15px;
+  box-shadow: 7px 5px rgba(0,0,0,.15);
+}

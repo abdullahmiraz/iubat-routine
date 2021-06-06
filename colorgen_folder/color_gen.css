@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+.emty_div{
+	margin-top: 1.5rem;
+}
+
+.main__class{
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstHeader{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+	/* properties */
+	font-size: 2rem;
+	margin:0 0.5rem 0 0.5rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.button_class{
+	width: 20%;
+	background: linear-gradient(135deg, #6e8efb, #a777e3);
+	color: white;
+	font-weight: 600;
+	font-size: 2rem;
+	margin:1rem;
+	font-family: 'Roboto Mono', monospace;
+	transition:background 2s ease;
+
+}
+
+
+/* @media only screen and (min-width: 500px) {
+	body{
+		background-color: #0063DB;
+	}
+  	.main__class{
+		margin-top: 40rem;
+	}
+} */
