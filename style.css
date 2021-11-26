@@ -15,9 +15,11 @@ tr a{
     color: inherit;
     text-decoration: underline;
     background-color: yellow;
+
 }
 tbody > tr > td{
-    color: inherit !important; 
+    max-width: 1vw!important;
+    overflow: hidden;
 }
 p{
     font-size: 16px;
